@@ -3,8 +3,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 12pt;
-  height: 600px;
+/*  height: 600px;*/
+  height: auto;
   color: azure;
+  padding-bottom: 5px;
 }
 
 .dropdown-content {
