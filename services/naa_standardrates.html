@@ -2,17 +2,17 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>MURR Archaeometry | Home</title>
+    <title>MURR Archaeometry | NAA</title>
     
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     
-    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="../css/style.css">
     
     <style>
     </style>
@@ -30,8 +30,8 @@
           <a class="collection-item" href="#">MURR</a>
         </ul>
         <ul class="dropdown-content collection" id="dropdown-services">
-          <a class="collection-item" href="#">Overview</a>
-          <a class="collection-item" href="#">NAA</a>
+          <a class="collection-item" href="services.html">Overview</a>
+          <a class="collection-item" href="naa_overview.html">NAA</a>
           <a class="collection-item" href="#">XRF</a>
           <a class="collection-item" href="#">ICP-MS</a>
           <a class="collection-item" href="#">Rates</a>
@@ -63,12 +63,13 @@
         </ul>
         <nav class="transparent">
           <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Archaeometry</a>
+            <span class="brand-logo"><a href="../index.html">Archaeometry</a> | <a href="services.html">Services</a></span>
+<!--            <a href="#" class="brand-logo">Archaeometry | Services</a>-->
             <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a class="dropdown-button" data-activates="dropdown-about-us" href="about/about.html">About Us<i class="material-icons right">arrow_drop_down</i></a></li>
-              <li><a class="dropdown-button" data-activates="dropdown-services" href="services/services.html">Services<i class="material-icons right">arrow_drop_down</i></a></li>
+              <li><a href="../index.html">Home</a></li>
+              <li><a class="dropdown-button" data-activates="dropdown-about-us" href="../about/about.html">About Us<i class="material-icons right">arrow_drop_down</i></a></li>
+              <li class="active"><a class="dropdown-button" data-activates="dropdown-services" href="services.html">Services<i class="material-icons right">arrow_drop_down</i></a></li>
               <li><a class="dropdown-button" data-activates="dropdown-nsf-subsidy-program" href="#!">NSF Subsidy Program<i class="material-icons right">arrow_drop_down</i></a></li>
               <li><a class="dropdown-button" data-activates="dropdown-sample-submission" href="#">Sample Submission<i class="material-icons right">arrow_drop_down</i></a></li>
               <li><a class="dropdown-button" data-activates="dropdown-software-and-data" href="#">Software and data<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -77,9 +78,9 @@
               <li><a href="#">Contact Us</a></li>
             </ul>
             <ul class="side-nav" id="mobile-nav">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about/about.html">About Us</a></li>
-              <li><a href="services/services.html">Services</a></li>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../about/about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
               <li><a href="#">NSF Subsidy Program</a></li>
               <li><a href="#">Sample Submission</a></li>
               <li><a href="#">Software and data</a></li>
@@ -91,24 +92,70 @@
         </nav>
         
         <div class="container">
-          <h1>Archaeometry Laboratory</h1>
-          <h2>University of Missouri Research Reactor</h2>
+          <h1>Analytical Services | NAA</h1>
         </div>
+        <!--    In-page Navigation    -->
+        <nav class="transparent">
+          <div class="nav-wrapper">
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="naa_overview.html">Overview</a></li>
+              <li><a href="naa_applications.html">Possible Applications</a></li>
+              <li class="active"><a href="naa_standardrates.html">Standard Rates</a></li>
+              <li><a href="http://acg.missouri.edu/HPM.html">Neutron Activation Analysis</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!--    In-page Navigation End    -->
       </div>
       <!--   Navigation End   -->
+      
       <!--   Main Content   -->
       <div class="container">
-        <p>
-          The Archaeometry Laboratory at the University of Missouri Research Reactor (MURR) provides trace-element analysis (i.e., chemical fingerprinting) of archaeological specimens for the purpose of determining their provenance (source) using the following analytical techniques: instrumental neutron activation analysis (INAA), X-ray fluorescence (XRF), inductively coupled plasma-mass spectrometry (ICP-MS), laser-ablation ICP-MS (LA-ICP-MS), and multi-collector ICP-MS (MC-ICP-MS).  MURR is one of only a few archaeometry laboratories in the world providing in-house access to all of these powerful analytical techniques.  Historically, we have specialized in the compositional analysis of archaeological ceramics and chert by INAA, and analysis of obsidian by XRF. We also support geochemical research on the petrogenesis of various igneous, metamorphic, and sedimentary rocks. Inquiries regarding elemental analysis of materials other than archaeological and geological materials should be directed to the MURR Analytical Chemistry Group. If you have specific questions about our capabilities, please contact us.
-        </p>
         <div class="center">
-          <p>Since 1988, the Archaeometry Laboratory has analyzed more than 170,000 archaeological specimens of pottery, chert, and obsidian by INAA, XRF & ICP-MS at a rate of approximately 6,000 samples per year.</p>
-          <div class="row">
-            <div class="col l12">
-              <img src="img/US_Samples_Map.png" alt="US_Samples_Map" class="responsive-img">
-            </div>
-          </div>
-          <p>Locations and quantities of U.S. ceramic, obsidian, and chert specimens analyzed by the Archaeometry Laboratory as of December, 2016</p>
+          <h3>Standard Rates for Analysis of Archaeological and Geological Specimens by Neutron Activation</h3>
+          <p><strong>(Effective January 2017)</strong></p>
+          <p>
+            Standard rates per specimen for NAA. Pottery, basalt, and other powdered samples are measured using both short & long irradiation procedures to determine 32–33 elements. All chert samples and obsidian source samples are measured using both procedures to determine 25–30 elements. Obsidian artifacts are measured with our short-irradiation procedure to determine 5–6 elements. If additional information is needed to definitively source the artifact, a long-irradiation procedure will also be conducted. Please contact the lab directly to discuss analysis of any other archaeological or geological material by NAA.
+          </p>
+          <table class="centered">
+            <thead>
+              <tr>
+                <th>Sample Matrix</th>
+                <th>Charge per Specimen</th>
+                <th>Minimum Charge</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Pottery and fired-clay briquettes</td>
+                <td>100$</td>
+                <td>500$</td>
+              </tr>
+              <tr>
+                <td>Clays and soils subject to <a href="http://www.aphis.usda.gov/wps/portal/aphis/home/">USDA APHIS</a></td>
+                <td>125$</td>
+                <td>500$</td>
+              </tr>
+              <tr>
+                <td>Artifacts and source materials of lithological nature (i.e., chert, basalt, etc.)</td>
+                <td>150$</td>
+                <td>1000$</td>
+              </tr>
+              <tr>
+                <td>Hematite, Ochre, and Similar Matrices</td>
+                <td>125$</td>
+                <td>1000$</td>
+              </tr>
+              <tr>
+                <td>Obsidian Artifacts & Source Specimens</td>
+                <td>40$ (Short)<br>125$ (Short & Long)</td>
+                <td>500$</td>
+              </tr>
+            </tbody>
+          </table>
+          <!--     TODO: Add link to standard rates page     -->
+          <p><strong>Note that additional fees may apply.</strong></p>
+          <p><strong>Please contact the laboratory to ensure an accurate cost estimate.</strong></p>
         </div>
       </div>
       <!--   Main Content End   -->
@@ -144,7 +191,7 @@
     
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="../js/materialize.min.js"></script>
     <script>
       $(document).ready(function () {
         $(".button-collapse").sideNav();
