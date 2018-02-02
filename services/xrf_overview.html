@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MURR Archaeometry | XRF</title>
+    
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <link type="text/css" rel="stylesheet" href="../css/style.css">
+    
+    <style>
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <!--   Navigation   -->
+      <div id="header">
+        <!--    Dropdown Content    -->
+        <ul class="dropdown-content collection" id="dropdown-about-us">
+          <a class="collection-item" href="#">Laboratory History</a>
+          <a class="collection-item" href="#">Staff</a>
+          <a class="collection-item" href="#">Facilities</a>
+          <a class="collection-item" href="#">MURR</a>
+        </ul>
+        <ul class="dropdown-content collection" id="dropdown-services">
+          <a class="collection-item" href="#">Overview</a>
+          <a class="collection-item" href="#">NAA</a>
+          <a class="collection-item" href="#">XRF</a>
+          <a class="collection-item" href="#">ICP-MS</a>
+          <a class="collection-item" href="#">Rates</a>
+        </ul>
+        <ul class="dropdown-content collection" id="dropdown-nsf-subsidy-program">
+          <a class="collection-item" href="#">Sumarry</a>
+          <a class="collection-item" href="#">Application info</a>
+        </ul>
+        <ul class="dropdown-content collection" id="dropdown-sample-submission">
+          <a class="collection-item" href="#">How to submit samples</a>
+          <a class="collection-item" href="#">Forms</a>
+          <a class="collection-item" href="#">XRF Guide</a>
+          <a class="collection-item" href="#">NAA Guide</a>
+          <a class="collection-item" href="#">ICP-MS</a>
+        </ul>
+        <ul class="dropdown-content collection" id="dropdown-software-and-data">
+          <a class="collection-item" href="#">Gauss</a>
+          <a class="collection-item" href="#">External Databases</a>
+        </ul>
+        <ul class="dropdown-content collection" id="dropdown-research">
+          <a class="collection-item" href="#">Publications</a>
+          <a class="collection-item" href="#">Grants</a>
+        </ul>
+        <ul class="dropdown-content collection" id="dropdown-education">
+          <a class="collection-item" href="#">Post Doc</a>
+          <a class="collection-item" href="#">Graduate Student Interns</a>
+          <a class="collection-item" href="#">Undergraduate Laboratory Assistant</a>
+          <a class="collection-item" href="#">Visiting Researchers</a>
+        </ul>
+        <nav class="transparent">
+          <div class="nav-wrapper">
+            <span class="brand-logo"><a href="../index.html">Archaeometry</a> | <a href="services.html">Services</a></span>
+<!--            <a href="#" class="brand-logo">Archaeometry | Services</a>-->
+            <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="../index.html">Home</a></li>
+              <li><a class="dropdown-button" data-activates="dropdown-about-us" href="../about/about.html">About Us<i class="material-icons right">arrow_drop_down</i></a></li>
+              <li class="active"><a class="dropdown-button" data-activates="dropdown-services" href="services.html">Services<i class="material-icons right">arrow_drop_down</i></a></li>
+              <li><a class="dropdown-button" data-activates="dropdown-nsf-subsidy-program" href="#!">NSF Subsidy Program<i class="material-icons right">arrow_drop_down</i></a></li>
+              <li><a class="dropdown-button" data-activates="dropdown-sample-submission" href="#">Sample Submission<i class="material-icons right">arrow_drop_down</i></a></li>
+              <li><a class="dropdown-button" data-activates="dropdown-software-and-data" href="#">Software and data<i class="material-icons right">arrow_drop_down</i></a></li>
+              <li><a class="dropdown-button" data-activates="dropdown-research" href="#">Research<i class="material-icons right">arrow_drop_down</i></a></li>
+              <li><a class="dropdown-button" data-activates="dropdown-education" href="#">Education<i class="material-icons right">arrow_drop_down</i></a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../about/about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="#">NSF Subsidy Program</a></li>
+              <li><a href="#">Sample Submission</a></li>
+              <li><a href="#">Software and data</a></li>
+              <li><a href="#">Research</a></li>
+              <li><a href="#">Education</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+        
+        <div class="container">
+          <h1>Analytical Services | XRF</h1>
+        </div>
+        <!--    In-page Navigation    -->
+        <!--    In-page Navigation End    -->
+      </div>
+      <!--   Navigation End   -->
+      
+      <!--   Main Content   -->
+      <div class="container">
+        <h3>Overview of X-ray Fluorescence</h3>
+        <h6>Prepared by James M. Guthrie,University of Missouri Research Reactor</h6>
+        <h6>Revised, August 2012, Jeffrey R. Ferguson, University of Missouri Research Reactor</h6>
+        <h5>Introduction</h5>
+        <p>
+          X-ray fluorescence (XRF) spectrometry is an elemental analysis technique with broad application in science and industry. XRF is based on the principle that individual atoms, when excited by an external energy source, emit X-ray photons of a characteristic energy or wavelength. By counting the number of photons of each energy emitted from a sample, the elements present may be identified and quantitated.
+        </p>
+        <p>
+          Henry Moseley was perhaps the father of this technique, since he, building on W.C. Röentgen’s discovery of the high-energy radiation dubbed X-rays, built an X-ray tube which he used to bombard samples with high-energy electrons. Moseley in 1912 discovered a mathematical relationship between the element’s emitted X-ray frequency and its atomic number. In 1925 Coster and Nishina were the first to use primary X-rays instead of electrons to excite a sample. After Glocker and Schreiber were the first to perform quantitative analysis of materials using XRF in 1928, detector technology had to catch up in order to make the technique practical, which didn’t begin to happen until the 1940’s. The 1950’s saw the first commercially produced X-ray spectrometers. In 1970, the lithium drifted silicon detector was developed, and this technology is still in use today (Jenkins 1988: 51-53).
+        </p>
+        <p>
+          Modern XRF instruments are capable of analyzing solid, liquid, and thin-film samples for both major and trace (ppm-level) components. The analysis is rapid and usually sample preparation is minimal or not required at all.
+        </p>
+        <p>
+          The Archaeometry Laboratory at the MU Research Reactor is the home of two Bruker Tracer III-V handheld instruments (one equipped with an automated sample changer) and an Elva-X benchtop instrument.  These instruments are used primarily for the provenance research on obsidian artifacts from around the world, but they are also used in special circumstances for the non-destructive analysis of other materials such as metals, ceramic paints, and soils.
+        </p>
+        <h5>Fundamentals of X-Ray Spectroscopy</h5>
+        <p>
+          The identification of elements by X-ray methods is possible due to the characteristic radiation emitted from the inner electronic shells of the atoms under certain conditions. The emitted quanta of radiation are X-ray photons whose specific energies permit the identification of their source atoms. To understand this phenomenon, we must first look at how X-rays are generated.
+        </p>
+        <p>
+          When an electron beam of high energy strikes a material, one of the results of the interaction is the emission of photons which have a broad continuum of energies. This radiation, called bremsstrahlung, or “braking radiation”, is the result of the deceleration of the electrons inside the material. The bremsstrahlung continuum is illustrated as a function of electron acceleration voltages for a molybdenum target in Figure 1.
+        </p>
+        <p>
+          Another result of the interaction between the electron beam and the material is the ejection of photoelectrons from the inner shells of the atoms making up the material. These photoelectrons leave with a kinetic energy (E-φ) which is the difference in energy between that of the incident particle (E) and the binding energy (φ) of the atomic electron. This ejected electron leaves a “hole” in the electronic structure of the atom, and after a brief period, the atomic electrons rearrange, with an electron from a higher energy shell filling the vacancy. By way of this relaxation the atom undergoes fluorescence, or the emission of an X-ray photon whose energy is equal to the difference in energies of the initial and final states. Detecting this photon and measuring its energy allows us to determine the element and specific electronic transition from which it originated (Jenkins 1988: 4-6, Anzelmo 1987 Part 1). Herein lies the basis for XRF spectrometry, where elements may be quantitated based on the rate of emission of their characteristic X-rays from a sample that is being excited.
+        </p>
+        <div class="row">
+          <div class="col s12 m8 l8">
+            <p>
+
+            </p>
+            <p>
+
+            </p>
+            <p>
+
+            </p>
+            <p>
+
+            </p>
+          </div>
+          <div class="col s12 m4 l4">
+          
+          </div>
+        </div>
+        <p>
+          
+        </p>
+        <h5>Instrumentation</h5>
+        <p>
+
+        </p>
+        <p>
+
+        </p>
+        <div class="row">
+          <div class="col s12 m8 l8">
+            <p>
+
+            </p>
+            <p>
+
+            </p>
+            <h6>X-Ray Source</h6>
+            <p>
+
+            </p>
+            <p>
+
+            </p>
+            <p>
+
+            </p>
+            <p>
+
+            </p>
+            <h6>Sample Chamber</h6>
+            <p>
+
+            </p>
+            <h6>Detector Systems</h6>
+            <p>
+              
+            </p>
+          </div>
+          <div class="col s12 m4 l4">
+          
+          </div>
+        </div>
+        <h6>Wavelength-Dispersive Spectrometers</h6>
+        <p>
+
+        </p>
+        <p>
+
+        </p>
+        <p>
+
+        </p>
+        <p>
+
+        </p>
+        <p>
+          
+        </p>
+        <6>Energy-Dispersive Spectrometers</6>
+      </div>
+      <!--   Main Content End   -->
+      <!--   Footer   -->
+      <footer class="page-footer grey darken-3">
+        <div class="container">
+          <div class="row">
+            <div class="col l4 s12 center">
+              <img src="../img/nsf1.gif" alt="nsf1" style="max-width: 90px;">
+              <p class="grey-text text-lighten-4">The Archaeometry Laboratory at MURR is supported by a grant from the National Science Foundation</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">FAQ</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Site Map</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="sol l4 s12">
+              <h5>Connect</h5>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            <p>Research performed by the Archaeometry Laboratory at MURR after August 2016 is supported by the National Science Foundation under our current grant number 1621158. Earlier research was supported by several NSF grants including the following: 1415403, 1110793, 8801707, 9102016, 9503035, 9802366, 9977237, 0102325, 0405042, 0504015, 0802757, 0922374, and 0802757. Any opinions, findings and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation.</p>
+            <p>© 1996–2017 University of Missouri–Columbia</p>
+          </div>
+        </div>
+      </footer>
+      <!--   Footer End   -->
+    </div>
+    
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".button-collapse").sideNav();
+        $(".dropdown-button").dropdown({
+          inDuration: 300,
+          outDuration: 225,
+          hover: true,
+          belowOrigin: true,
+          alignment: 'right'
+        });
+      });
+    </script>
+  </body>
+</html>
