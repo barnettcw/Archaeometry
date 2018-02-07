@@ -1,12 +1,23 @@
 #header {
-  background-image: url("../img/home_page_photo_alt.png");
+  background-image: url(../img/IMG_1148.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 12pt;
 /*  height: 600px;*/
   height: auto;
-  color: azure;
+  color: black !important;
   padding-bottom: 5px;
+}
+
+.nav-wrapper ul li a {
+  color: black;
+}
+
+.material-icons {
+  padding: 0px;
+  margin: 0px;
+  float: right;
+  color: black;
 }
 
 .dropdown-content {
