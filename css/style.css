@@ -9,6 +9,14 @@
   padding-bottom: 5px;
 }
 
+#header ul li a {
+/*  color: white;*/
+}
+
+.header-link {
+  color: white;
+}
+
 .nav-wrapper ul li a {
   color: white;
 }
@@ -26,7 +34,7 @@
   display: none;
   min-width: 300px; /* Changed this to accomodate content width */
   max-height: auto;
-    margin-left: -1px; /* Add this to keep dropdown in line with edge of navbar */
+  margin-left: -1px; /* Add this to keep dropdown in line with edge of navbar */
   overflow: hidden; /* Changed this from overflow-y:auto; to overflow:hidden; */
   opacity: 0;
   position: absolute;
@@ -51,6 +59,14 @@ main {
   height: 836px;
 }
 
+#header-content div.row {
+  width: 100%;
+}
+
 .side-nav {
   background-color: black;
+}
+
+.collection-item {
+  color: black;
 }
