@@ -70,3 +70,11 @@ main {
 .collection-item {
   color: black;
 }
+
+.in-page-active {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.in-page-nav:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
